@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  num = (rand(6) + 1).to_s
+  num = (rand(6) + 1).to_s #stringify num since gets.chomp will give us a string
   prompt = "Guess a number between 1 and 6"
   input = gets.chomp
   if input == 'exit'
