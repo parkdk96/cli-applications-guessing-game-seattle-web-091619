@@ -1,8 +1,8 @@
 # Code your solution here!
 def run_guessing_game
-  num = rand(6) + 1
+  num = (rand(6) + 1).to_s
   prompt = "Guess a number between 1 and 6"
-  input = gets.chomp.to_i
+  input = gets.chomp
   if input == 'exit'
     puts "Goodbye!"
   elsif input == num
