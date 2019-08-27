@@ -9,4 +9,6 @@ def run_guessing_game
     when !num
       puts "Sorry! The computer guessed #{num}."
     when "exit"
+      puts "Goodbye!"
+  end
 end
